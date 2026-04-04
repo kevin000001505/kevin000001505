@@ -33,7 +33,7 @@
 
 ## 🌟 Featured Projects
 
-### 🛰️ [Space Weather Aviation Risk Dashboard](https://github.com/kevin000001505) — GMU Capstone
+### 🛰️ [Space Weather Aviation Risk Dashboard](https://github.com/kevin000001505/Capstone.git) — GMU Capstone
 > Production data platform assessing HF communication disruption risk for aviation from space weather events.
 - Processes **150GB/month** of NOAA telemetry via 10 concurrent Prefect pipelines with automated retry & failover
 - **70% storage reduction** via PostgreSQL partitioning, indexing strategy, and data lifecycle management
@@ -44,7 +44,7 @@
 
 ---
 
-### 🤖 [Multimodal RAG Optimization](https://github.com/kevin000001505) — University Project
+### 🤖 [Multimodal RAG Optimization](https://github.com/kevin000001505/Skynet.git) — University Project
 > Research project benchmarking and improving multimodal retrieval-augmented generation pipelines.
 - **10% accuracy gain** over Llama 3.2 baseline via LoRA fine-tuning on 4-bit quantized model
 - **5% RAG accuracy boost** by integrating Florence-2 image captioning for semantic retrieval
@@ -52,7 +52,7 @@
 
 ---
 
-### 💬 [George Mason University AI Chatbot](https://github.com/kevin000001505) — Personal Project
+### 💬 [George Mason University AI Chatbot](https://github.com/kevin000001505/GMU-chatbot.git) — Personal Project
 > Real-time RAG chatbot for GMU information, deployed on AWS with fully automated infrastructure.
 - **40% response latency reduction** using LangGraph + DSPY optimization + C-RAG continuous pipeline
 - Containerized with Docker, deployed on **AWS EC2** via **Terraform** IaC
@@ -60,7 +60,7 @@
 
 ---
 
-### 🏆 [Restaurant Recommender](https://github.com/kevin000001505) — GDG GMU Hackathon (3rd Place)
+### 🏆 [Restaurant Recommender](https://github.com/kevin000001505/Hackathon-Tinder-Restaurant.git) — GDG GMU Hackathon (3rd Place)
 > Cold-start recommendation system using clustering + review embeddings for personalized ranking.
 - Solved cold-start problem with **K-Prototypes clustering** + review embedding fusion
 - Multi-threaded background processing for seamless real-time inference
