@@ -1,18 +1,19 @@
 # Hi 👋, I'm Kevin (Cheng-Hsun Hsu)
-**Data Engineer · ML/AI Engineer · M.S. Data Analytics Engineering @ George Mason University**
+**Data Engineer · ML/AI Engineer · M.S. Data Analytics Engineering @ George Mason University (May 2026)**
 
 ---
 
 ## 🙋‍♂️ About Me
 
-- 🎓 M.S. **Data Analytics Engineering** @ George Mason University (graduating May 2026)
-- 🚀 Currently building a **production-grade Space Weather Aviation Risk platform** — 150GB/month telemetry pipeline with PostgreSQL/PostGIS, Prefect, Redis, FastAPI + SSE, and GitHub Actions CI/CD
-- 🤖 Former **AI & Data Consultant** — built RAG chatbots, custom OCR models (96% accuracy), and automation workflows that saved clients $12K+/year
+- 🎓 M.S. **Data Analytics Engineering** @ George Mason University — graduating May 2026
+- 🚀 Currently building a **production-grade Space Weather Aviation Risk platform** — 150GB/month telemetry pipeline with TimescaleDB/PostGIS, Prefect, Redis, FastAPI + SSE, and GitHub Actions CI/CD
+- 🤖 Former **AI & Data Science Consultant** — shipped a 96%-accuracy custom OCR system, RAG chatbots, and LLM cost-optimization workflows saving clients **$12K+/year**
 - 🔭 Exploring **LLM fine-tuning** (LoRA/QLoRA), **geospatial data engineering**, and **real-time streaming architectures**
 - 🌱 Passionate about turning raw, messy data into reliable, scalable production systems
 - 🏠 Homelab enthusiast — self-hosted Proxmox cluster with TrueNAS, Intel Arc GPU inference server, and 10+ Docker stacks
-- 💬 Ask me about **PostgreSQL optimization**, **ETL pipelines**, **RAG systems**, or **self-hosted infrastructure**
+- 💬 Ask me about **PostgreSQL/TimescaleDB optimization**, **ETL pipelines**, **RAG systems**, or **self-hosted infrastructure**
 - 📫 Reach me at **chenghsunhsu911@gmail.com**
+- 🌐 Portfolio: [kevin-personal.shiba-toast.com](https://kevin-personal.shiba-toast.com/)
 - ⚡ Fun fact: I run my own GPU inference server at home for experimenting with AI models before they hit production
 
 ---
@@ -21,9 +22,9 @@
 
 **Languages:** Python · SQL · R · JavaScript · Go
 
-**Data Engineering & Databases:** PostgreSQL · PostGIS · Redis · Prefect · PySpark · Elasticsearch · Qdrant · asyncpg
+**Data Engineering & Databases:** PostgreSQL · PostGIS · TimescaleDB · Redis · Prefect · PySpark · Elasticsearch · Qdrant · asyncpg
 
-**ML & AI:** PyTorch · scikit-learn · LangChain · LangGraph · HuggingFace · BERT · LoRA/QLoRA · RAG · DSPY · OpenCV
+**ML & AI:** PyTorch · scikit-learn · LangChain · LangGraph · HuggingFace · BERT · LoRA/QLoRA · RAG · DSPY · OpenCV · Florence-2
 
 **Cloud & DevOps:** Docker · GitHub Actions · AWS (EC2, Lambda) · Terraform · Linux · Proxmox · TrueNAS
 
@@ -35,11 +36,12 @@
 
 ### 🛰️ [Space Weather Aviation Risk Dashboard](https://github.com/kevin000001505/Capstone.git) — GMU Capstone
 > Production data platform assessing HF communication disruption risk for aviation from space weather events.
-- Processes **150GB/month** of NOAA telemetry via 10 concurrent Prefect pipelines with automated retry & failover
-- **70% storage reduction** via PostgreSQL partitioning, indexing strategy, and data lifecycle management
-- **50% API speedup** through Redis caching layer eliminating redundant DB queries
-- Real-time updates via **Server-Sent Events (SSE)** + async FastAPI backend (asyncpg)
-- Full **CI/CD with GitHub Actions + pytest** — zero production crashes since adoption
+- Processed **150GB/month** of NOAA telemetry reliably via 10 concurrent Prefect pipelines with automated retry & failover
+- **70% storage reduction** with zero data loss via migration to TimescaleDB hypertables with native compression
+- **80% API speedup** through Redis caching layer eliminating redundant database queries
+- **40% query performance gain** via PostgreSQL tuning (shared_buffers, WAL, checkpoints) and indexing strategy
+- Real-time frontend updates via **Server-Sent Events (SSE)** replacing client-side polling
+- **Zero production crashes** since adopting GitHub Actions CI/CD with full pytest coverage + branch protection
 - PostGIS-powered geospatial flight path pipeline with COPY-based bulk ingestion
 
 ---
@@ -69,17 +71,16 @@
 
 ### 🏠 [Self-Hosted Homelab Infrastructure](https://github.com/kevin000001505) — Personal Project
 > Full-stack self-hosted Proxmox cluster for media, monitoring, and AI inference.
-- Manages **10+ Docker Compose stacks** across VMs: Plex, Jellyfin, Immich, AdGuard, Grafana/Loki
+- Manages **10+ Docker Compose stacks** across VMs: Plex, Jellyfin, Immich, AdGuard, Grafana/Loki/Promtail
 - Intel Arc GPU AI inference server with **OpenVINO** for accelerated ML model serving
-- TrueNAS RAIDZ2 storage, Tailscale VPN, Nginx Proxy Manager, automated backups
+- TrueNAS RAIDZ2 storage, Tailscale VPN, NPMplus reverse proxy, Komodo-managed CI/CD-style deployments
 
 ---
-
-
 
 ## 🔗 Connect with Me
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/cheng-hsun-hsu-a24517280/)
+- 🌐 [Portfolio](https://kevin-personal.shiba-toast.com/)
 - 📧 [chenghsunhsu911@gmail.com](mailto:chenghsunhsu911@gmail.com)
 - 🐙 [GitHub](https://github.com/kevin000001505)
 
